@@ -4,7 +4,7 @@ author:
   - '[Eleanor Roosevelt](eleanor.eoosevelt@domain.com)'
   - '[John Peters Humphrey](jph@domain.com)'
 bibliography: references.bib # bibliography to use for resolving references
-csl: https://www.zotero.org/styles/chicago-note-bibliography
+csl: https://www.zotero.org/styles/research-in-number-theory
 date: 1 January 2023
 keywords: # list of keywords to be included in HTML, PDF, ODT, pptx, docx and AsciiDoc metadata; repeat as for author, above
 lang: en-US
@@ -65,7 +65,7 @@ toc-depth: 2
 toc-title: 'Contents'
 
 # Fonts
-fontenc: # allows font encoding to be specified through fontenc package (with pdflatex); default is T1 (see LaTeX font encodings guide)
+fontenc: 'Times New Roma' # allows font encoding to be specified through fontenc package (with pdflatex); default is T1 (see LaTeX font encodings guide)
 fontfamily: # font package for use with pdflatex: TeX Live includes many options, documented in the LaTeX Font Catalogue. The default is Latin Modern.
 fontfamilyoptions: # options for package used as fontfamily; repeat for multiple options.
 fontsize: # font size for body text. The standard classes allow 10pt, 11pt, and 12pt. To use another size, set documentclass to one of the KOMA-Script classes, such as scrartcl or scrbook.
